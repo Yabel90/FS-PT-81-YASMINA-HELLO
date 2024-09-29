@@ -1,0 +1,68 @@
+html{
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    margin: 4;
+    width: 600px;
+    height: 800px;
+}
+.iconosencabezado{
+    display: flex;
+    margin-top: 15px;
+}
+.iconohtml5{
+    justify-content: left;
+    margin: 1rem;
+}
+.textosarriba{
+    display: flex;
+    flex-direction: column;
+}
+.iconoellipsis {
+margin-left: auto;
+margin-right: 15px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+img {
+    height: 400px;
+    width: 600px;
+    margin: none;
+    max-width: 100%;
+    
+}
+.iconosimagen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.iconobookmark{
+margin-left: auto;
+margin-right: 15px;
+margin-top: 10px;
+}
+.postbody{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.heart{
+    margin-right: 10px;
+}
+.coment{
+    margin-right: 10px;
+}
+@media (max-width: 800px) {
+.container {
+ width: 70%;
+ padding: 20px;
+  }
+}
+
+
